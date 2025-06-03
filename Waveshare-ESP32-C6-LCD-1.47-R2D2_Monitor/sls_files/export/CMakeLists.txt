@@ -1,0 +1,7 @@
+SET(SOURCES ui_MainScreen.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_r2d2_png.c)
+
+add_library(ui ${SOURCES})
